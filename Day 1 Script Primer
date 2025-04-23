@@ -1,0 +1,64 @@
+Windows batch files - usable on all modern versions of windows (on command line .bat or .cmd)
+PowerShell - .NET based extensions are .ps1 cross platform and uses cmdlets
+Bash - used on linux/unix .sh extension Z shell is newer
+Python - CROSS PLATFORM, .py extension, available with pip
+
+Script editing:
+  Syntax Highlighting: Changes the color of text to indicate the category of item that is represented by that text.
+  Autocompletion: Allows the editor to provide probable completions to the text currently being entered (based upon the syntax of the scripting language in use), which can speed up development.
+  Debugging: Allows the pausing of execution of a script or program to view the current state of the environment or manually direct program flow.
+  Script Execution via Hotkey: Executes the script being edited via selecting a button or hotkey, allowing for more rapid execution and development.
+
+  Notepad: A simple text editor included in Windows by default; only supports editing.
+  Gedit: The default editor for Gnome; included by default on some Linux distributions. Supports editing and syntax highlighting for any included languages.
+  Nano/Pico: A simple, easy to use command line text editor, commonly available or able to be installed on Unix-like machines. Only supports basic editing, however it may support some syntax highlighting.
+  PowerShell ISE: Integrated into some versions of PowerShell; supports all these features and many more, such as block code execution (executes a highlighted block of code) and help files for PowerShell features.
+  Sublime Text: Included on some machines used during this course; supports syntax highlighting for some scripting languages, and limited autocompletion. Plugins may be available to support other features.
+  Notepad++: An open-source text editor with many features similar to Sublime Text. Supports highlighting for some languages, and supports additional languages via plugins or editing the configuration.
+  Visual Studio Code: This editor behaves as a full-blown Integrated Development Environment (IDE) for many languages — either natively or via plugins. It supports many features to assist development, such as syntax 
+highlighting, autocompletion, debugger support, and many hotkeys and configurations to assist development.
+  Vi/Vim: While this command line text editor has rich configuration support, if used during this course, it is generally used as a basic text editor. 
+
+Execution History
+  :: means used to execute powershells
+  Bash’s history file is present at <userhome>/.bash_history by default, and PowerShell — since 5.0 — has a default location at %APPDATA%\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt.
+  PowerShell’s default location can be changed using the Set-PSReadLineOption cmdlet's -HistorySavePath option, and the location can be displayed using Get-PSReadLineOption.
+BINARY PATH is everything to the end of the file
+  
+Conceptualizing a Script
+  When creating or prototyping a new script, there are many methods for determining the best path forward, however these methods generally boil down to:
+    State the problem clearly. This step is vital to ensure that the correct solution is sought out.
+    Determine a big picture solution to the problem.
+    Break the solution down into individual steps that can be performed. If unable to do so, reconsider the solution or research as necessary.
+    Determine how to perform each step in the target language, adjusting overall flow or structure as required based upon feedback here. For steps with many or complex parts, this may require following this process starting 
+    back at the beginning for that particular step.
+    Test and deploy the script.
+    Clean up and/or revise as necessary.
+
+Common Language Features
+  Data Types
+    String: This data type consists of individual characters, often laid out sequentially in memory (i.e., string of characters, thus the name). String encoding varies by language or platform, with American Standard Code for Information Interchange (ASCII) and Unicode Transformation Format–8-bit (UTF-8) being fairly common — both use eight bits or a single byte to represent a single human-readable character.
+    Integer: This data type corresponds to a numeric, whole number, value. The maximum value that can be stored varies based on the platform and/or language. Many languages also have a long — or similarly named — data type that has a larger possible value; some languages also have a short or byte type that stores smaller values.
+    Array: Also known as lists in a scripting context, this collection type can store multiple values. Exact implementations differ by language. Raw binary data is generally handled as an array — or equivalent per language — of bytes, if available.
+    Float: Floating point number — a number with a decimal point attached. This data type can store both very small and very large numbers due to its ability to move the decimal point — thus a floating point. Some 
+languages have smaller and larger versions with less or more precision — sometimes called single and double.
+    Boolean: Value that represents true or false. Often used to control program flow, such as with if/then statements. Many comparison operators return either true or false.
+
+Input/Output
+
+When creating a script, it is often necessary to take in input or output data. The syntax and methods can vary greatly depending on the scripting language, however these are common input sources and output destinations:
+
+  Console: The console can often be read from or written to.
+  File: Scripting languages can often read from or write to files.
+  Registry: Scripting languages on Windows may be able to read or write to the registry. This may require the use of external binaries.
+  Databases: Some scripting languages support reading or writing to or from databases, or external binaries may be usable to perform the same operations.
+Command Line Arguments: Many scripting languages allow command line arguments to be read, and command line arguments can be supplied to other scripts or applications.
+  Network: Scripting languages — either natively or through invoking of external code — can allow a script to connect to other machines via networking to send or receive data. This can take the form of Hypertext Transfer Protocol (HTTP) requests, Transmission Control Protocol (TCP) connections, or other lower-level connections. This is useful for downloading software to deploy — legitimate or malicious. Threat actors may also use this functionality to establish remote shells by connecting to a remote machine that issues commands.
+    CPT - hunting, Harden, Assessing, Clearing
+    NONE IS ACCEPTABLE ANSWER
+    
+    
+    
+    
+    
+    
