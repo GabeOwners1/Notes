@@ -1,0 +1,69 @@
+Spanning tree allows switches to talk works on layer 2 with TTL 
+IP Network Components
+
+IP networks have several components and terms:
+Network Identifier (ID) (also sometimes known as subnet ID): Portion — # of bits — of an IP address that designates the network on which a host resides — also the base IP address in a networkHost ID: Portion — # of bits — of an IP address that designates the host within its networkSubnet mask: Mask that specifies which bits are network (binary one) and which bits are host (binary zero)Broadcast address: Last IP address within a network that is reserved to address all hosts in the same networkGateway (also known as next-hop): IP address assigned to a layer 3 device — router — that connects multiple networks together and can route packets between themDefault gateway: Layer 3 device used for routing when there is not a more specific gateway specified in the routing table
+
+DORA DHCP proccess
+  Discover
+  Offer
+  Request
+  Acknowledge
+
+IPV6 has 64 bits for network and host bit
+netmask - r (ip addres/cidr)        no parathenesis
+VLAN standard 802.1Q
+
+Mission Analysis
+
+  The CPT plays an important role in the MA process. During MA, the CPT conducts a technical survey, a site survey, terrain mapping and analysis, and adversary analysis.
+ 
+Technical Survey
+ 
+  The CPT carries out a technical survey of the supported network. The purpose of the survey is to identify MRT-C. This identification process assists leaders in understanding how the supported commander’s organization relies on cyberspace. The outputs of MA determine which areas of the network are mission essential. MA also aids in understanding which parts of the supported commander’s network, if disrupted, seized, or lost, risks operational culmination or mission failure (CWP 3-33.4). 
+
+Site Survey
+
+  The CPT conducts a site survey with a focus on understanding the supported organization’s mission statement, mission essential functions and priorities, and meeting with key leadership (CWP 3-33.4). The site survey includes a leader’s reconnaissance by the CPT, mission element, or crew lead, or other designated CPT leader, to secure necessary information, assess requirements and challenges, and broker relationships prior to the operation (CWP 3-33.4). 
+
+Terrain Mapping and Analysis
+
+  The mission partner and the CPT work together to conduct terrain mapping and analysis.  Appendix B of CWP 3-33.4 states, A detailed logical network map is the CPT’s foundational visualization tool, must scale appropriately to the situation, and will guide CPT internal planning and mission conduct (CWP 3-33.4). The CWP image shown below provides a sample logical network map that may be created and used by a CPT during MA. 
+
+Adversary Analysis
+
+  The CPT performs adversary analysis as part of the MA process. Adversarial analysis is used to determine adversarial intent relative to specific terrain by evaluating the adversary’s capabilities and limitations, current situation, patterns of operation, and observed Tactics, Techniques, and Procedures (TTP) (CWP 3-33.4). The construction of a model portraying how the adversary normally executes operations, or how the adversary previously reacted to specific situations in the past helps guide the development of indicators and analytics based on anticipated or expected adversary courses of action (CWP 3-33.4). 
+
+Step 4: Orders Production and Dissemination
+  This step in the operations process defines the order production process and provides the manner in which orders are disseminated. The CWP states:
+
+  During the Orders Production and Dissemination, the operational-level orders production team receives the final outputs from the capability analysis and force allocation. Outputs are developed into a formal operations order or TASKORD (or service specific mission type order). The Operational Control (OPCON) headquarters’ Operational Planning section maintains the responsibility to develop and publish orders (including coordinating or special instructions, or similar guidance) to direct and guide CPT operations. Once produced, the final order and special instructions are published and disseminated to the CPT for action; to the supported commander if a formal command relationship exists; or as a courtesy copy to the supported commander if a formal command relationship does not exist.
+
+  Once the order is published, the Operational Planning section retains responsibility for coordinating logistics, systems access, CPT workspace, power for CPT equipment, and administrative-level credentials to MRT-C with the supported commander. Due to the lengthy process associated with coordinating system access and logistics, this action is initiated in this stage of the CPT operations process to mitigate, prevent, or minimize delays to CPT mission execution. Organizations to whom CPTs are OPCON with no operational or tasking control authority over the supported commander or organization must communicate with the relevant authority (e.g., CCMD, Service Cyberspace Components [SCC], or support agency) to coordinate, synchronize, and deconflict required support or actions (e.g., accesses and accounts) required by the supported organization to enable CPT mission execution. Coordination and deconfliction may be required with one or more operational-level planning elements. For example, a CCMD may coordinate with the Joint Force Headquarters - Department of Defense Information Network (JFHQ-DODIN) for a CPT mission if the mission resides outside CCMD control or outside of the CCMD’s Area of Responsibility (AOR).
+
+  Tactical Planning and Mission Execution is largely the responsibility of and conducted by the CPT. Depending on operational-level requirements and internal CPT process, the CPT may generate a Tactical Mission Plan document. This document takes the form of an informational briefing or report for CPT operators or the mission partner. This tactical plan may be shared with the Operational Planning section.
+
+The CPT tactical mission plan normally:
+	Articulates tactical objectives and tasks;
+	Pairs capabilities to tactical tasks;
+	Finalizes sensor placement schemes;
+	Establishes a data collection and sensor management plan;
+	Establishes (tactical) mission phases;
+	Develops contingencies;
+	Develop tactical assessments;
+	Establishes contracts;
+	Establishes the communications plan.
+
+	The final step of the OP is Assessment. During this step, the OP section assessment team analyzes MOPs to determine whether operational tasks were satisfied to create desired effects, and analyzes MOEs to determine whether creation of desired effects achieved operational objectives. The OP section assessment team reviews data and information reported by the CPT in accordance with the operational assessment plan. Additional inputs from the CPT, the supported organization, and potentially the intelligence community may be used to facilitate accurate operational assessments.
+
+
+
+
+
+
+
+
+
+
+
+
