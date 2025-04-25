@@ -1,12 +1,25 @@
+Clearing is an operation to target and engage MCA to eliminate or neutralize it from a network or system. Cyber Warfare Publication (CWP) 3-33.4:
 
+Clear is normally used relative to the removal of barriers or obstacles in mobility operations or the deconfliction of targets for engagement. In the context of CPT operations, clear is defined as an operation to target and engage MCA in order to eliminate or neutralize it from a network or system, and may include actions to interdict, contain, disrupt, or degrade MCA. The CPT clear function occurs when the supported or supporting commander directs the CPT to eliminate or neutralize the identified threat on the network or system. CPTs may also be directed to take other actions against identified threats rather than clearing them.
+Supporting commander is ultimately responsible for the system/network
 
+According to National Institute of Standards and Technology (NIST) Special Publication (SP) 800.61r2, the IR lifecycle consists of four phases.
+	Preparation
+	Detection and Analysis
+	Containment, 
+	Eradication, and Recovery
+	Post-incident Activity
 
+Contain affected systems and networks simultaneously to prevent adversary repositioning.
+Neutralize and eradicate adversary activities in each network or system
+Observe and characterize adversary behavior and Tactics, 
+Techniques, and Procedures (TTP) to enable follow-on operations (i.e., enable hardening)
+Enable recovery or restoration of affected systems and networks
 
+A variety of tools and techniques are employed, such as monitoring software, log and error message aggregation, querying platforms, and security systems (e.g., Network Security Monitors [NSM], firewalls, and Intrusion Detection Systems [IDS]). 
 
-
-
-
-
+	After detection has confirmed a likely incident, the system should be contained for further investigation and remediation. Containment limits the extent of any damage a breach may have already initiated, such as data exfiltration or damage to production systems. 
+	Containment isolates a known compromise. If the adversarial actors have proceeded no further than the affected systems, the remainder of the network is protected. When this affects production servers, backup plans need to be initiated in parallel with network containment. 
 
 
 
